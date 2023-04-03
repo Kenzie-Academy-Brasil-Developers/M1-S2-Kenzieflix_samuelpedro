@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+
+main{
+    font-family: 'Roboto', sans-serif;
+}
+
+.background{
+    height: 100vh;
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logokenzieflix{
+    display: flex;
+    justify-content: center;
+}
+
+.h1{
+    color: #ffffff;
+    font-size: 30px;
+    margin: 50px;
+}
+
+.logos{
+    display: flex;
+    margin: 50px;
+    width: 700px;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center
+}
+
+.icone_img{
+    text-align: center;
+    border: solid transparent;
+    width: 160px;
+    height: 40px;
+}
+.icone_img2{
+    border: solid transparent;
+    width: 160px;
+    height: 40px;
+}
+.icone_img3{
+    border: solid transparent;
+    width: 160px;
+    height: 40px;
+}
+
+.icone_img:hover{
+    border: 2px solid white;
+}
+
+.icone_img2:hover{
+    border: 2px solid white;
+}
+
+.icone_img3:hover{
+    border: 2px solid white;
+}
+
+.adicionarperfil{
+    display: flex;
+    border: solid transparent;
+    flex-direction: row;
+    align-items: center;
+    height: 160px;
+    width: 160px;
+    justify-content: center;
+}
+
+.div{
+    height: 160px;
+    width: 160px;
+    background-color: #a6a6a6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.div:hover{
+    border: 2px solid white;
+}
+
+.divp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aline{
+    color: white;
+    height: 0px;
+    text-align: center;
+}
+
+.pedrinho{
+    color: white;
+    height: 0px;
+    text-align: center;
+}
+
+.julia{
+    color: white;
+    height: 0px;
+    text-align: center;
+}
+
+.botaoadicionar{
+    font-size: 15px;
+    color: white;
+    display: flex;
+    height: 0px;
+    width: 100%;
+}
+
+.style{
+    border: solid #ffffff 2px;
+    background-color: black;
+    width: 200px;
+    height: 40px;
+    color: white;
+}
+.style:hover{
+    color: black;
+    background-color: #ffffff;
+    border: solid #ffffff 2px;
+    transition: 1s;
+}
